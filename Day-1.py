@@ -148,13 +148,13 @@
 # 10
 # 1684. Count the Number of Consistent Strings
 
-class Solution:
-    def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
-        appearances = 0
-        sallowed = set(allowed)
-
-        for word in words:
-            if all(x in sallowed for x in word):
-                appearances += 1
-
-        return appearances
+# class Solution:
+#     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
+#         appearances = 0
+#         sallowed = set(allowed)
+#
+#         for word in words:
+#             if all(x in sallowed for x in word):
+#                 appearances += 1
+#
+#         return appearances
